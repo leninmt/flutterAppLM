@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:navegar/src/pages/home_page.dart';
+import 'package:navegar/src/pages/sing_in.dart';
+import 'package:navegar/src/pages/sing_up.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,10 +15,18 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
+      //! Crear unas rutas de navegacion
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.pink,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(),
+      initialRoute: "Home",
+      routes: <String, WidgetBuilder>{
+        "Home":(BuildContext context) => MyHomePage(),
+        "Sing_in":(BuildContext context) => SingIn(),
+        "Sing_up":(BuildContext context) => SingUp(),
+
+      },
     );
   }
 }

@@ -2,16 +2,16 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\cuarto_a\navegacion\navegar\build\windows\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>E:\LeninFlutter\navegacion\build\windows\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\cuarto_a\navegacion\navegar\build\windows\flutter\x64\Debug\flutter_assemble</FullPath>
+      <FullPath>E:\LeninFlutter\navegacion\build\windows\flutter\x64\Debug\flutter_assemble</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\cuarto_a\navegacion\navegar\build\windows\runner\Debug\navegar.exe</FullPath>
+      <FullPath>E:\LeninFlutter\navegacion\build\windows\runner\Debug\navegar.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\cuarto_a\navegacion\navegar\build\windows\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>E:\LeninFlutter\navegacion\build\windows\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

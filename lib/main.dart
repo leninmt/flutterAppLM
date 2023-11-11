@@ -17,15 +17,15 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       //! Crear unas rutas de navegacion
       theme: ThemeData(
-        primarySwatch: Colors.pink,
+        //primarySwatch: Colors.pink,
         visualDensity: VisualDensity.adaptivePlatformDensity,
+        useMaterial3: true,
       ),
       initialRoute: "Home",
       routes: <String, WidgetBuilder>{
-        "Home":(BuildContext context) => MyHomePage(),
-        "Sing_in":(BuildContext context) => SingIn(),
-        "Sing_up":(BuildContext context) => SingUp(),
-
+        "Home": (BuildContext context) => MyHomePage(),
+        "Sing_in": (BuildContext context) => SingIn(),
+        "Sing_up": (BuildContext context) => SingUp(),
       },
     );
   }

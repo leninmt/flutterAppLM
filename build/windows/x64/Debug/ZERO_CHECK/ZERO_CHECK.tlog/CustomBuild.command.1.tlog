@@ -1,6 +1,6 @@
-^C:\CUARTO_A\NAVEGACION\NAVEGAR\BUILD\WINDOWS\CMAKEFILES\BE0C1CA4420D299CC109A57BD7735781\GENERATE.STAMP.RULE
+^E:\LENINFLUTTER\NAVEGACION\BUILD\WINDOWS\CMAKEFILES\4475913BD8550892985E0A98D31E58AF\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/cuarto_a/navegacion/navegar/windows -BC:/cuarto_a/navegacion/navegar/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/cuarto_a/navegacion/navegar/build/windows/navegar.sln
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/LeninFlutter/navegacion/windows -BE:/LeninFlutter/navegacion/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/LeninFlutter/navegacion/build/windows/navegar.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:navegar/src/pages/sing_in.dart';
 import 'package:navegar/src/pages/sing_up.dart';
-import 'package:navegar/src/widgets/icon_containers.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key}) : super(key: key);
@@ -94,9 +93,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     style: TextStyle(
                       fontFamily: "PermanentMarker",
                       fontSize: 40.0,
-                      
                     ),
-                    
                   ),
                   SizedBox(
                     width: 50.0,
@@ -143,6 +140,13 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             )
           : screens[_currentIndex],
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          //boton + para recordar 
+        },
+        child: Icon(Icons.add),
+        backgroundColor: colors[_currentIndex],
+      ),
       bottomNavigationBar: Container(
         padding: const EdgeInsets.symmetric(horizontal: 10),
         margin: const EdgeInsets.only(bottom: 10),

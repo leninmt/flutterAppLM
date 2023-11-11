@@ -89,7 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 50.0,
                   ),
                   Text(
-                    "Ejercicio N.-003",
+                    "Taller en clase y Deber",
                     style: TextStyle(
                       fontFamily: "PermanentMarker",
                       fontSize: 40.0,
@@ -142,7 +142,7 @@ class _MyHomePageState extends State<MyHomePage> {
           : screens[_currentIndex],
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          //boton + para recordar 
+          //boton + para recordar
         },
         child: Icon(Icons.add),
         backgroundColor: colors[_currentIndex],

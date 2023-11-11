@@ -1,0 +1,2 @@
+# Ignorar directorio .dart_tool en la raíz del proyecto
+.dart_tool/
